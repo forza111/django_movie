@@ -9,7 +9,7 @@ class MoviesView(ListView):
     '''Список фильмов'''
     model = Movie
     queryset = Movie.objects.filter(draft=False)
-    template_name = 'movies/movies.html'
+    #template_name джанго в данном случае генерирует автоматически имя модели Movie + list
 
 
 class MovieDetailView(DetailView):
