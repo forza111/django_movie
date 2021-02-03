@@ -1,9 +1,10 @@
-from django.shortcuts import render
+from django.shortcuts import render,redirect
 from django.views.generic.base import View
 from django.views.generic import ListView, DetailView
 
-
 from .models import Movie
+from .forms import ReviewForm
+
 
 class MoviesView(ListView):
     '''Список фильмов'''
@@ -18,3 +19,10 @@ class MovieDetailView(DetailView):
     slug_field = 'url' #по какому полю нужно искать нашу запись
     #template_name джанго в данном случае генерирует автоматически имя модели Movie + detail
 
+class AddReview(View):
+    '''Отзывы'''
+    def post(self, request, pk):
+        form =  ReviewForm(request.POST)
+        if form.is_valid():
+            form = form.save(commit=False)
+        return redirect('/')
