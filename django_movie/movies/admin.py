@@ -61,7 +61,12 @@ class GenreAdmin(admin.ModelAdmin):
 @admin.register(Actor)
 class ActorAdmin(admin.ModelAdmin):
     '''Актеры'''
-    list_desplay = ("name", "age")
+    list_display = ("name", "age", "image")
+
+    def get_image(self, obj):
+        return mark_safe(f'<img src={obj.image.url} width="50" height="60"')
+
+    get_image.short_description = "Изображение"
 
 @admin.register(Rating)
 class RatingAdmin(admin.ModelAdmin):
