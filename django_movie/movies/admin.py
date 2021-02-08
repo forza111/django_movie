@@ -4,10 +4,12 @@ from . models import Category, Actor, Genre, Movie, MovieShots, \
 
 @admin.register(Category)
 class CategoryAdmin(admin.ModelAdmin):
+    '''Категории'''
     list_display = ("id", "name", "url")
     list_display_links = ("name",)
 
 class ReviewInline(admin.TabularInline):
+    '''Отзывы на странице фильмов'''
     model = Review
     extra = 1
     readonly_fields = ("name", "email")
@@ -15,6 +17,7 @@ class ReviewInline(admin.TabularInline):
 
 @admin.register(Movie)
 class MovieAdmin(admin.ModelAdmin):
+    '''Фильмы'''
     list_display = ("title", "category", "url", "draft")
     list_filter = ("category", "year")
     search_fields = ("title", "category__name")
@@ -50,9 +53,25 @@ class ReviewAdmin(admin.ModelAdmin):
     list_display = ("name", "email", "parent", "movie", "id")
     readonly_fields = ("name", "email")
 
-admin.site.register(Actor)
-admin.site.register(Genre)
-admin.site.register(MovieShots)
+@admin.register(Genre)
+class GenreAdmin(admin.ModelAdmin):
+    '''Жанры'''
+    list_display = ("name", "url")
+
+@admin.register(Actor)
+class ActorAdmin(admin.ModelAdmin):
+    '''Актеры'''
+    list_desplay = ("name", "age")
+
+@admin.register(Rating)
+class RatingAdmin(admin.ModelAdmin):
+    '''Рейтинг'''
+    list_display = ("movie", "ip", "star")
+
+@admin.register(MovieShots)
+class MovieShotsAdmin(admin.ModelAdmin):
+    '''Кадры из фильма'''
+    list_display = ("title", "movie")
+
 admin.site.register(RatingStar)
-admin.site.register(Rating)
 
