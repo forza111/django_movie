@@ -22,7 +22,7 @@
                 <h5 class="editContent"></h5>
                 <ul>
                     <li>
-                        <span><b>Возраст:</b> {{ actor.age }} лет</span></li>
+                        <span><b>Возраст </b> {{ actor.age }} лет</span></li>
                     <li>
                         <span><b>Режиссер:</b>
                             {% for movie in actor.film_director.all %}
@@ -31,8 +31,8 @@
                         </span>
                     </li>
                     <li><span><b>Актер:</b>
-                        {% for movie in actor.film_actor.all %}
-                            {{ movie.title }}
+                        {% for actor in actor.film_actor.all %}
+                            {{ actor.title }}
                         {% endfor %}
                     </span>
                     </li>
