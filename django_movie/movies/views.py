@@ -4,7 +4,7 @@ from django.views.generic import ListView, DetailView
 from django.db.models import Q
 
 from .models import Movie, Category, Actor, Genre
-from .forms import ReviewForm
+from .forms import ReviewForm, RatingForm
 
 
 class GenreYear():
@@ -29,6 +29,12 @@ class MovieDetailView(GenreYear,DetailView):
     slug_field = 'url' #по какому полю нужно искать нашу запись
     #template_name джанго в данном случае генерирует автоматически имя модели Movie + detail
 
+    def get_context_data(self, **kwargs):
+        context = super(MovieDetailView, self).get_context_data(**kwargs)
+        context["star_form"] = RatingForm
+        return context
+
+    
 class AddReview(View):
     '''Отзывы'''
     def post(self, request, pk):
