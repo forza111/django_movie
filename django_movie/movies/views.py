@@ -31,7 +31,7 @@ class MovieDetailView(GenreYear,DetailView):
 
     def get_context_data(self, **kwargs):
         context = super(MovieDetailView, self).get_context_data(**kwargs)
-        context["star_form"] = RatingForm
+        context["star_form"] = RatingForm()
         return context
 
     
@@ -80,8 +80,8 @@ class AddStarRating(View):
         if form.is_valid():
             Rating.objects.update_or_create(
                 ip=self.get_client_ip(request),
-                movie_id=int(request.POST.get('movie')),
-                defaults={'star_id': int(request.POST.get('star'))}
+                movie_id=int(request.POST.get("movie")),
+                defaults={'star_id': int(request.POST.get("star"))}
             )
             return HttpResponse(status=201)
         else:
