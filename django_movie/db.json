@@ -156,11 +156,232 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2021-02-12T06:24:34.074Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Терминатор 3",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2021-02-12T06:25:13.783Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Терминатор 3",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432\\u0438\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2021-02-12T06:28:04.190Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Терминатор 3",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2021-02-12T16:20:08.262Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Сериалы",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2021-02-17T06:05:11.310Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2021-02-17T06:05:25.040Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2021-02-17T06:05:30.381Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "3",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2021-02-19T20:56:54.810Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "4",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2021-02-19T20:57:02.132Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "5",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2021-02-22T10:21:29.506Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Терминатор 4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2021-02-22T10:21:37.681Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Терминатор 3",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2021-02-22T10:22:07.700Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Терминатор 4",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u041e\\u0442\\u0437\\u044b\\u0432\", \"object\": \" - \\u0422\\u0435\\u0440\\u043c\\u0438\\u043d\\u0430\\u0442\\u043e\\u0440 4\"}}, {\"added\": {\"name\": \"\\u041e\\u0442\\u0437\\u044b\\u0432\", \"object\": \" - \\u0422\\u0435\\u0440\\u043c\\u0438\\u043d\\u0430\\u0442\\u043e\\u0440 4\"}}, {\"added\": {\"name\": \"\\u041e\\u0442\\u0437\\u044b\\u0432\", \"object\": \" - \\u0422\\u0435\\u0440\\u043c\\u0438\\u043d\\u0430\\u0442\\u043e\\u0440 4\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2021-02-22T10:36:22.630Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "Терминатор 5",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u041e\\u0442\\u0437\\u044b\\u0432\", \"object\": \" - \\u0422\\u0435\\u0440\\u043c\\u0438\\u043d\\u0430\\u0442\\u043e\\u0440 5\"}}, {\"added\": {\"name\": \"\\u041e\\u0442\\u0437\\u044b\\u0432\", \"object\": \" - \\u0422\\u0435\\u0440\\u043c\\u0438\\u043d\\u0430\\u0442\\u043e\\u0440 5\"}}, {\"added\": {\"name\": \"\\u041e\\u0442\\u0437\\u044b\\u0432\", \"object\": \" - \\u0422\\u0435\\u0440\\u043c\\u0438\\u043d\\u0430\\u0442\\u043e\\u0440 5\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2021-02-23T09:52:29.094Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "4 - Терминатор 3",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2021-02-23T09:57:59.066Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "4 - Терминатор 3",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2021-02-26T05:53:54.268Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "/about/ -- О нас",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2021-02-26T06:10:05.981Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "/about/ -- О нас",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+  }
+},
+{
   "model": "auth.user",
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$216000$Qe7rIdeGD98f$PMuFzrAc0jNQ/CXahhLOhxey3LWRpVdlm4ro1ukk5Wg=",
-    "last_login": "2021-01-31T18:37:28.865Z",
+    "last_login": "2021-02-23T09:57:51.340Z",
     "is_superuser": true,
     "username": "admin",
     "first_name": "",
@@ -175,10 +396,89 @@
 },
 {
   "model": "sessions.session",
+  "pk": "0o6rzpqeck04ohnmpd8essvmkakpxm7q",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSED5enSvd9AgBmkaiAp7cr479qkC93ec859sRC3tYZt0BJmZGcm2Ol3SzE_qO0A77HdOs-9rcuc-K7wgw5-7UjPy-H-HdQ46rd2HmJKxpDOsoC0E2YtSvJSkTRIWUzOgsWkJ6edxAiorXAGNPiiLCn2_gDd6TdI:1lE8ZH:3Gj6MivCc9Dq8CEVkWChPQqh0WJ_VlWvfuXz3riUU9M",
+    "expire_date": "2021-03-08T10:35:55.486Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "2zt93r394xpry1wkq53m15kjkxl4x2rs",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSED5enSvd9AgBmkaiAp7cr479qkC93ec859sRC3tYZt0BJmZGcm2Ol3SzE_qO0A77HdOs-9rcuc-K7wgw5-7UjPy-H-HdQ46rd2HmJKxpDOsoC0E2YtSvJSkTRIWUzOgsWkJ6edxAiorXAGNPiiLCn2_gDd6TdI:1lEURz:O0KSlm44Qb5K3r24xoU8iJccu6zksVyydUcXmYyxDvw",
+    "expire_date": "2021-03-09T09:57:51.459Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "3eelwhwu5hijoozmz8stfvx03xigm6vf",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSED5enSvd9AgBmkaiAp7cr479qkC93ec859sRC3tYZt0BJmZGcm2Ol3SzE_qO0A77HdOs-9rcuc-K7wgw5-7UjPy-H-HdQ46rd2HmJKxpDOsoC0E2YtSvJSkTRIWUzOgsWkJ6edxAiorXAGNPiiLCn2_gDd6TdI:1lCFvg:77IYuyBWmlSkFLNF8IQCpHXYHq6fzH2zDPpfj1VBJDs",
+    "expire_date": "2021-03-03T06:03:16.642Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "dcued8vcq41x950um227p3udsp2lk3kv",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSED5enSvd9AgBmkaiAp7cr479qkC93ec859sRC3tYZt0BJmZGcm2Ol3SzE_qO0A77HdOs-9rcuc-K7wgw5-7UjPy-H-HdQ46rd2HmJKxpDOsoC0E2YtSvJSkTRIWUzOgsWkJ6edxAiorXAGNPiiLCn2_gDd6TdI:1lDCOa:267bSt8LovLBvQeZbDQaTuY61EepPakObwpwdiFdhC0",
+    "expire_date": "2021-03-05T20:29:00.840Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "fgx5ylyv6olpwtfhip91lyjtblxkloih",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSED5enSvd9AgBmkaiAp7cr479qkC93ec859sRC3tYZt0BJmZGcm2Ol3SzE_qO0A77HdOs-9rcuc-K7wgw5-7UjPy-H-HdQ46rd2HmJKxpDOsoC0E2YtSvJSkTRIWUzOgsWkJ6edxAiorXAGNPiiLCn2_gDd6TdI:1lETgQ:JqQto5Hm2TlTjTIsiP67l3jyXuwTW0Q1c4abUe_WFv0",
+    "expire_date": "2021-03-09T09:08:42.102Z"
+  }
+},
+{
+  "model": "sessions.session",
   "pk": "itghu3gz8ugoi6mtl8d9gb370bu24yit",
   "fields": {
     "session_data": ".eJxVjMsOwiAQRf-FtSED5enSvd9AgBmkaiAp7cr479qkC93ec859sRC3tYZt0BJmZGcm2Ol3SzE_qO0A77HdOs-9rcuc-K7wgw5-7UjPy-H-HdQ46rd2HmJKxpDOsoC0E2YtSvJSkTRIWUzOgsWkJ6edxAiorXAGNPiiLCn2_gDd6TdI:1l6HbE:OonI07PvwAn7X7j_52EmufEsuw9sFshxwZxl3y3c_IY",
     "expire_date": "2021-02-14T18:37:28.965Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "pj8ulm4otp0nhw9mx5jkix51eb09hv42",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSED5enSvd9AgBmkaiAp7cr479qkC93ec859sRC3tYZt0BJmZGcm2Ol3SzE_qO0A77HdOs-9rcuc-K7wgw5-7UjPy-H-HdQ46rd2HmJKxpDOsoC0E2YtSvJSkTRIWUzOgsWkJ6edxAiorXAGNPiiLCn2_gDd6TdI:1lETf1:goOA8zvXhXZPu0x3XvIFiFYFMCaWJjP_QHVULygKewg",
+    "expire_date": "2021-03-09T09:07:15.749Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "py7trrghqbgn0g4caucif6u6s2132sxp",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSED5enSvd9AgBmkaiAp7cr479qkC93ec859sRC3tYZt0BJmZGcm2Ol3SzE_qO0A77HdOs-9rcuc-K7wgw5-7UjPy-H-HdQ46rd2HmJKxpDOsoC0E2YtSvJSkTRIWUzOgsWkJ6edxAiorXAGNPiiLCn2_gDd6TdI:1lE8L7:AgOqc4mLZcEviiJ6b2Y_QPL6pKpn8OADInQm6XhQg-U",
+    "expire_date": "2021-03-08T10:21:17.782Z"
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "example.com",
+    "name": "example.com"
+  }
+},
+{
+  "model": "flatpages.flatpage",
+  "pk": 1,
+  "fields": {
+    "url": "/about/",
+    "title": "О нас",
+    "content": "Подготавливая эту статью, наша команда изучила более 50-ти страниц «О нас» различных IT-компаний. Мы исследовали, о чем чаще всего пишут на этой странице, и какие элементы располагают, собрали статистику по этой теме и качественные примеры. Вы узнаете, какие 4 самые распространенные ошибки можно допустить, рассказывая о компании, и какие 7 элементов помогут вам сделать страницу “О нас” эффективной.\r\n\r\nЭту страницу называют по-разному: Who we are / About us/ Our team / Company и т.п. Но суть ее остается той же: вы помогаете пользователю узнать вас лучше, познакомиться и увидеть, кто вы.\r\nСтраница “О нас” часто является одной из самых читаемых страниц сайта и играет существенную роль в его продвижении. Вот кейс из жизни нашего клиента.\r\nНа его сайте страничка «О нас» была на 4-ом месте по посещаемости, показатель отказов и продолжительность сессии были в норме.",
+    "enable_comments": false,
+    "template_name": "pages/about.html",
+    "registration_required": false,
+    "sites": [
+      1
+    ]
   }
 },
 {
@@ -188,6 +488,15 @@
     "name": "Фильмы",
     "descriptions": "Все фильмы мира",
     "url": "movie"
+  }
+},
+{
+  "model": "movies.category",
+  "pk": 2,
+  "fields": {
+    "name": "Сериалы",
+    "descriptions": "Сериалы",
+    "url": "serial"
   }
 },
 {
@@ -310,7 +619,7 @@
   "fields": {
     "title": "Терминатор 3",
     "tagline": "Same make same model new mission",
-    "description": "В 1995 году Джон Коннор живёт в Лос-Анджелесе с приемными родителями. Его мать Сара Коннор в детстве готовила его к будущей роли лидера Сопротивления человечества против Скайнета, искусственного интеллекта, который получит контроль над ядерными ракетами Соединенных Штатов и начнет ядерную катастрофу 29 августа 1997 года. Этот день станет известен впоследствии как «Судный день». Однако Сара была арестована и заключена в психиатрическую больницу за попытку взорвать компьютерную фабрику.\r\n\r\nВ 2029 году Скайнет отправляет нового Терминатора T-1000 в прошлое, чтобы убить Джона. T-1000 — это продвинутый прототип, изготовленный из жидкого металла («мимикрирующий полисплав»), который дает ему возможность принимать форму и внешний вид практически всего, к чему он прикасается, мгновенно заращивать раны, и превращать руки в лезвия. T-1000 прибывает в 1995 год, убивает полицейского и принимает его облик; он также использует полицейский компьютер, чтобы выследить Джона. Казалось бы, Джон обречен: никто в 1995-м не сможет справиться с боевым роботом. Однако Т-1000 не знает, что постаревший Джон Коннор послал перепрограммированного Терминатора Модели 101, чтобы защитить себя в молодости.",
+    "description": "<p><strong><iframe frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/WeC-lGnajT0\" width=\"640\"></iframe>В 1995 году Джон Коннор живёт в Лос-Анджелесе с приемными родителями. Его мать Сара Коннор в детстве готовила его к будущей роли лидера Сопротивления человечества против Скайнета, искусственного интеллекта, который получит контроль над ядерными ракетами Соединенных Штатов и начнет ядерную катастрофу 29 августа 1997 года. Этот день станет известен впоследствии как &laquo;Судный день&raquo;. Однако Сара была арестована и заключена в психиатрическую больницу за попытку взорвать компьютерную фабрику. В 2029 году Скайнет отправляет нового Терминатора T-1000 в прошлое, чтобы убить Джона. T-1000 &mdash; это продвинутый прототип, изготовленный из жидкого металла (&laquo;мимикрирующий полисплав&raquo;), который дает ему возможность принимать форму и внешний вид практически всего, к чему он прикасается, мгновенно заращивать раны, и превращать руки в лезвия. T-1000 прибывает в 1995 год, убивает полицейского и принимает его облик; он также использует полицейский компьютер, чтобы выследить Джона. Казалось бы, Джон обречен: никто в 1995-м не сможет справиться с боевым роботом. Однако Т-1000 не знает, что постаревший Джон Коннор послал перепрограммированного Терминатора Модели 101, чтобы защитить себя в молодости.</strong></p>",
     "poster": "movies/terminator-3-vosstanie-mashin.jpg",
     "year": 2002,
     "country": "США, Франция",
@@ -320,7 +629,7 @@
     "fees_in_world": 134890340,
     "category": 1,
     "url": "terminator_3",
-    "draft": true,
+    "draft": false,
     "directors": [
       4
     ],
@@ -330,6 +639,97 @@
     "genres": [
       2
     ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 4,
+  "fields": {
+    "title": "Терминатор 4",
+    "tagline": "Same make same model new mission",
+    "description": "<p><strong><iframe frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/WeC-lGnajT0\" width=\"640\"></iframe>В 1995 году Джон Коннор живёт в Лос-Анджелесе с приемными родителями. Его мать Сара Коннор в детстве готовила его к будущей роли лидера Сопротивления человечества против Скайнета, искусственного интеллекта, который получит контроль над ядерными ракетами Соединенных Штатов и начнет ядерную катастрофу 29 августа 1997 года. Этот день станет известен впоследствии как &laquo;Судный день&raquo;. Однако Сара была арестована и заключена в психиатрическую больницу за попытку взорвать компьютерную фабрику. В 2029 году Скайнет отправляет нового Терминатора T-1000 в прошлое, чтобы убить Джона. T-1000 &mdash; это продвинутый прототип, изготовленный из жидкого металла (&laquo;мимикрирующий полисплав&raquo;), который дает ему возможность принимать форму и внешний вид практически всего, к чему он прикасается, мгновенно заращивать раны, и превращать руки в лезвия. T-1000 прибывает в 1995 год, убивает полицейского и принимает его облик; он также использует полицейский компьютер, чтобы выследить Джона. Казалось бы, Джон обречен: никто в 1995-м не сможет справиться с боевым роботом. Однако Т-1000 не знает, что постаревший Джон Коннор послал перепрограммированного Терминатора Модели 101, чтобы защитить себя в молодости.</strong></p>",
+    "poster": "movies/terminator_6Xz7a4D.jpg",
+    "year": 2002,
+    "country": "США, Франция",
+    "world_premiere": "2003-07-01",
+    "budget": 189000,
+    "fees_in_usa": 189404,
+    "fees_in_world": 134890340,
+    "category": 1,
+    "url": "terminator_4",
+    "draft": false,
+    "directors": [
+      4
+    ],
+    "actors": [
+      2
+    ],
+    "genres": [
+      2
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 5,
+  "fields": {
+    "title": "Терминатор 5",
+    "tagline": "Same make same model new mission",
+    "description": "<p><strong><iframe frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/WeC-lGnajT0\" width=\"640\"></iframe>В 1995 году Джон Коннор живёт в Лос-Анджелесе с приемными родителями. Его мать Сара Коннор в детстве готовила его к будущей роли лидера Сопротивления человечества против Скайнета, искусственного интеллекта, который получит контроль над ядерными ракетами Соединенных Штатов и начнет ядерную катастрофу 29 августа 1997 года. Этот день станет известен впоследствии как &laquo;Судный день&raquo;. Однако Сара была арестована и заключена в психиатрическую больницу за попытку взорвать компьютерную фабрику. В 2029 году Скайнет отправляет нового Терминатора T-1000 в прошлое, чтобы убить Джона. T-1000 &mdash; это продвинутый прототип, изготовленный из жидкого металла (&laquo;мимикрирующий полисплав&raquo;), который дает ему возможность принимать форму и внешний вид практически всего, к чему он прикасается, мгновенно заращивать раны, и превращать руки в лезвия. T-1000 прибывает в 1995 год, убивает полицейского и принимает его облик; он также использует полицейский компьютер, чтобы выследить Джона. Казалось бы, Джон обречен: никто в 1995-м не сможет справиться с боевым роботом. Однако Т-1000 не знает, что постаревший Джон Коннор послал перепрограммированного Терминатора Модели 101, чтобы защитить себя в молодости.</strong></p>",
+    "poster": "movies/terminator_GntdpB9.jpg",
+    "year": 2002,
+    "country": "США, Франция",
+    "world_premiere": "2003-07-01",
+    "budget": 189000,
+    "fees_in_usa": 189404,
+    "fees_in_world": 134890340,
+    "category": 1,
+    "url": "terminator_5",
+    "draft": false,
+    "directors": [
+      4
+    ],
+    "actors": [
+      2
+    ],
+    "genres": [
+      2
+    ]
+  }
+},
+{
+  "model": "movies.ratingstar",
+  "pk": 1,
+  "fields": {
+    "value": 1
+  }
+},
+{
+  "model": "movies.ratingstar",
+  "pk": 2,
+  "fields": {
+    "value": 2
+  }
+},
+{
+  "model": "movies.ratingstar",
+  "pk": 3,
+  "fields": {
+    "value": 3
+  }
+},
+{
+  "model": "movies.ratingstar",
+  "pk": 4,
+  "fields": {
+    "value": 4
+  }
+},
+{
+  "model": "movies.ratingstar",
+  "pk": 5,
+  "fields": {
+    "value": 5
   }
 },
 {
@@ -396,6 +796,72 @@
     "text": "dsf, куку",
     "parent": 1,
     "movie": 3
+  }
+},
+{
+  "model": "movies.review",
+  "pk": 7,
+  "fields": {
+    "email": "",
+    "name": "",
+    "text": "ujhno",
+    "parent": null,
+    "movie": 4
+  }
+},
+{
+  "model": "movies.review",
+  "pk": 8,
+  "fields": {
+    "email": "",
+    "name": "",
+    "text": "dsf,",
+    "parent": 1,
+    "movie": 4
+  }
+},
+{
+  "model": "movies.review",
+  "pk": 9,
+  "fields": {
+    "email": "",
+    "name": "",
+    "text": "dsf, куку",
+    "parent": 1,
+    "movie": 4
+  }
+},
+{
+  "model": "movies.review",
+  "pk": 10,
+  "fields": {
+    "email": "",
+    "name": "",
+    "text": "ujhno",
+    "parent": null,
+    "movie": 5
+  }
+},
+{
+  "model": "movies.review",
+  "pk": 11,
+  "fields": {
+    "email": "",
+    "name": "",
+    "text": "dsf,",
+    "parent": 1,
+    "movie": 5
+  }
+},
+{
+  "model": "movies.review",
+  "pk": 12,
+  "fields": {
+    "email": "",
+    "name": "",
+    "text": "dsf, куку",
+    "parent": 1,
+    "movie": 5
   }
 }
 ]
