@@ -2,7 +2,7 @@ asgiref==3.2.3
 certifi==2019.11.28
 chardet==3.0.4
 Click==7.0
-Django
+Django==3.0.3
 django-ckeditor==5.9.0
 django-js-asset==1.2.2
 django-recaptcha3==0.1.0
