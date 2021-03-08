@@ -2,8 +2,9 @@ from django.shortcuts import render,redirect
 from django.views.generic.base import View
 from django.views.generic import ListView, DetailView
 from django.db.models import Q
+from django.http import HttpResponse
 
-from .models import Movie, Category, Actor, Genre
+from .models import Movie, Category, Actor, Genre, Rating
 from .forms import ReviewForm, RatingForm
 
 
@@ -20,7 +21,7 @@ class MoviesView(GenreYear,ListView):
     '''Список фильмов'''
     model = Movie
     queryset = Movie.objects.filter(draft=False)
-    paginate_by = 1
+    paginate_by = 5
     #template_name джанго в данном случае генерирует автоматически имя модели Movie + list
 
 
@@ -60,7 +61,7 @@ class ActorView(GenreYear,DetailView):
 
 class FilterMoviesView(GenreYear,ListView):
     '''Фльтр фильмов'''
-    paginate_by = 2
+    paginate_by = 3
 
     def get_queryset(self):
         queryset = Movie.objects.filter(
