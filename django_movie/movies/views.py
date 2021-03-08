@@ -4,7 +4,7 @@ from django.views.generic import ListView, DetailView
 from django.db.models import Q
 from django.http import HttpResponse
 
-from .models import Movie, Category, Actor, Genre, Rating
+from .models import Movie, Category, Actor, Genre, Rating, Review
 from .forms import ReviewForm, RatingForm
 
 
@@ -22,14 +22,13 @@ class MoviesView(GenreYear,ListView):
     model = Movie
     queryset = Movie.objects.filter(draft=False)
     paginate_by = 5
-    #template_name джанго в данном случае генерирует автоматически имя модели Movie + list
+
 
 
 class MovieDetailView(GenreYear,DetailView):
     '''Полное описание фильма'''
     model = Movie
     slug_field = 'url' #по какому полю нужно искать нашу запись
-    #template_name джанго в данном случае генерирует автоматически имя модели Movie + detail
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
