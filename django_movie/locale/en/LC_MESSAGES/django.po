@@ -1,0 +1,138 @@
+
+
+#: env/lib/python3.6/site-packages/ckeditor_uploader/templates/ckeditor/browse.html:5
+msgid "Select an image to embed"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/ckeditor_uploader/templates/ckeditor/browse.html:27
+msgid "Browse for the image you want, then click 'Embed Image' to continue..."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/ckeditor_uploader/templates/ckeditor/browse.html:29
+msgid ""
+"No images found. Upload images using the 'Image Button' dialog's 'Upload' "
+"tab."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/ckeditor_uploader/templates/ckeditor/browse.html:50
+msgid "Images in: "
+msgstr ""
+
+#: env/lib/python3.6/site-packages/ckeditor_uploader/templates/ckeditor/browse.html:62
+#: env/lib/python3.6/site-packages/ckeditor_uploader/templates/ckeditor/browse.html:80
+msgid "Embed Image"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/ckeditor_uploader/templates/ckeditor/browse.html:146
+msgid "Play Slideshow"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/ckeditor_uploader/templates/ckeditor/browse.html:147
+msgid "Pause Slideshow"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/ckeditor_uploader/templates/ckeditor/browse.html:148
+msgid "&lsaquo; Previous Photo"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/ckeditor_uploader/templates/ckeditor/browse.html:149
+msgid "Next Photo &rsaquo;"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/ckeditor_uploader/templates/ckeditor/browse.html:150
+msgid "Next &rsaquo;"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/ckeditor_uploader/templates/ckeditor/browse.html:151
+msgid "&lsaquo; Prev"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/templates/default_urlconf.html:7
+msgid "Django: the Web framework for perfectionists with deadlines."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/templates/default_urlconf.html:346
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/templates/default_urlconf.html:368
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/templates/default_urlconf.html:369
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> is in your settings file and you have not configured any "
+"URLs."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/templates/default_urlconf.html:384
+msgid "Django Documentation"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/templates/default_urlconf.html:385
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/templates/default_urlconf.html:396
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/templates/default_urlconf.html:397
+msgid "Get started with Django"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/templates/default_urlconf.html:408
+msgid "Django Community"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/templates/default_urlconf.html:409
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+#: templates/movies/movie_detail.html:25
+msgid "Год:"
+msgstr ""
+
+#: templates/movies/movie_detail.html:27
+msgid "Страна:"
+msgstr ""
+
+#: templates/movies/movie_detail.html:30
+msgid "Слоган:"
+msgstr ""
+
+#: templates/movies/movie_detail.html:33
+msgid "Режиссер:"
+msgstr ""
+
+#: templates/movies/movie_detail.html:56
+msgid "Премьера в мире:"
+msgstr "PRIMIEEER"
+
+#: templates/movies/movie_detail.html:59
+msgid "Бюджет:"
+msgstr ""
+
+#: templates/movies/movie_detail.html:61
+msgid "Сборы в США:"
+msgstr ""
+
+#: templates/movies/movie_detail.html:63
+#, fuzzy
+#| msgid "Премьера в мире:"
+msgid "Сборы в мире:"
+msgstr "PRIMIEEER"
+
+#: templates/movies/movie_detail.html:67
+msgid "Рейтинг:"
+msgstr ""
+
+#: templates/movies/movie_detail.html:111
+msgid "О фильме"
+msgstr ""
