@@ -1,4 +1,22 @@
-
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-10 15:37+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: env/lib/python3.6/site-packages/ckeditor_uploader/templates/ckeditor/browse.html:5
 msgid "Select an image to embed"
@@ -95,44 +113,106 @@ msgstr ""
 msgid "Connect, get help, or contribute"
 msgstr ""
 
+#: templates/include/header.html:15
+msgid "Главная"
+msgstr "Main"
+
+#: templates/include/header.html:18 templates/include/header.html:20
+msgid "Категории"
+msgstr "Category"
+
+#: templates/include/header.html:32
+msgid "Вход"
+msgstr "Log IN"
+
+#: templates/include/header.html:60
+msgid "лучший сайт на django 3"
+msgstr "best website on django 3"
+
+#: templates/include/header.html:61
+msgid "Все о кино"
+msgstr "All about movies"
+
+#: templates/include/sidebar.html:3
+msgid "Поиск фильма:"
+msgstr "Movie Search:"
+
+#: templates/include/sidebar.html:5
+msgid "Введите название..."
+msgstr "Enter a name..."
+
+#: templates/include/sidebar.html:14
+msgid "Жанры"
+msgstr "Genres"
+
+#: templates/include/sidebar.html:27
+msgid "Год"
+msgstr "Year"
+
+#: templates/include/sidebar.html:37
+msgid "Найти"
+msgstr "Search"
+
+#: templates/include/sidebar.html:42
+msgid "Рейтинг"
+msgstr "Rating"
+
 #: templates/movies/movie_detail.html:25
 msgid "Год:"
-msgstr ""
+msgstr "Year:"
 
 #: templates/movies/movie_detail.html:27
 msgid "Страна:"
-msgstr ""
+msgstr "Country:"
 
 #: templates/movies/movie_detail.html:30
 msgid "Слоган:"
-msgstr ""
+msgstr "Slogan:"
 
 #: templates/movies/movie_detail.html:33
 msgid "Режиссер:"
-msgstr ""
+msgstr "Director:"
 
 #: templates/movies/movie_detail.html:56
 msgid "Премьера в мире:"
-msgstr "PRIMIEEER"
+msgstr "Premiere in the world"
 
 #: templates/movies/movie_detail.html:59
 msgid "Бюджет:"
-msgstr ""
+msgstr "Budget:"
 
 #: templates/movies/movie_detail.html:61
 msgid "Сборы в США:"
-msgstr ""
+msgstr "Fees in USA"
 
 #: templates/movies/movie_detail.html:63
-#, fuzzy
-#| msgid "Премьера в мире:"
 msgid "Сборы в мире:"
-msgstr "PRIMIEEER"
+msgstr "Fees in the world"
 
 #: templates/movies/movie_detail.html:67
 msgid "Рейтинг:"
-msgstr ""
+msgstr "Rating"
 
 #: templates/movies/movie_detail.html:111
 msgid "О фильме"
-msgstr ""
+msgstr "About "
+
+#: templates/movies/movie_detail.html:130
+msgid "Оставить отзыв"
+msgstr "Leave a review"
+
+#: templates/movies/movie_detail.html:137
+msgid "Ваш комментарий *"
+msgstr "Your comment"
+
+#: templates/movies/movie_detail.html:144
+msgid "Имя *"
+msgstr "Name"
+
+#: templates/movies/movie_detail.html:158
+msgid "Отправить"
+msgstr "Send"
+
+#: templates/movies/tags/last_movie.html:3
+msgid "Последние добавленные"
+msgstr "Last added"
